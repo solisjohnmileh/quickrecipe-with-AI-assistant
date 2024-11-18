@@ -1,0 +1,40 @@
+.todo-recipes {
+    background-color: #d1ffd1; /* Light green background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.rec-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.delete-btn {
+    padding: 8px;
+}
+
+/* Set a fixed height for images to keep cards aligned */
+.fixed-img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+/* Card container to align items consistently */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Ensure card body takes up remaining space */
+.card-body {
+    flex-grow: 1;
+}
+
+.date{
+  font-weight: 800;
+  color: green;
+}
